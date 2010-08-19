@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe "user/show.html.erb" do
+describe "admin/user/show.html.erb" do
   it "GET user/show" do
     render
   end
