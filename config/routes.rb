@@ -58,7 +58,7 @@ Testapp::Application.routes.draw do
   # match ':controller(/:action(/:id(.:format)))'
   namespace :admin do
     resources :accounts do
-      resource :user, :only => [:show]
+      resources :users
     end
   end
 end
